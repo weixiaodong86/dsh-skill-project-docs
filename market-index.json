@@ -47,8 +47,8 @@
         "zh": "软件研发项目管理过程文档"
       },
       "description": {
-        "en": "Generate and revise the 18 software R&D project-management documents (DOCX): confirm the document list first, then build on a single typography spec with cover, revision history, table of contents, numbered headings, tables and figures. Template mode adds italic fill-in guidance and examples; every revision produces a new versioned file with a formal revision record.",
-        "zh": "生成与修订软件研发全流程 18 类项目管理过程文档（DOCX）：先交互确认文档清单，再按统一排版规范生成封面、修订记录、目录、自动编号标题与图表。模板模式附斜体填写说明与示例；每次修订产出新版本文件并维护正式修订记录。"
+        "en": "Generate, rebuild and fill gaps in the 18 software R&D project-management documents (DOCX): confirm the document list and working mode first, then rebuild non-conforming documents from extracted facts and identify missing documents per project phase. One typography spec covers cover page, revision history, table of contents, numbered headings, tables and figures; template mode adds italic fill-in guidance and examples; every revision produces a new versioned file with a formal revision record.",
+        "zh": "生成、重构与补齐软件研发全流程 18 类项目管理过程文档（DOCX）：先交互确认文档清单与工作模式，再从旧文档抽取事实重建规范文档、按阶段识别并补齐缺失文档。统一排版含封面、修订记录、目录、自动编号标题与图表；模板模式附斜体填写说明与示例；每次修订产出新版本文件并维护正式修订记录。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8cmVjdCB4PSI3LjUiIHk9IjQuNSIgd2lkdGg9IjIxIiBoZWlnaHQ9IjI3IiByeD0iMyIgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMUYyNDMwIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8cmVjdCB4PSIxMS41IiB5PSI5IiB3aWR0aD0iOSIgaGVpZ2h0PSIyLjQiIHJ4PSIxLjIiIGZpbGw9IiM0RDZCRkUiLz4KICA8cmVjdCB4PSIxMS41IiB5PSIxNCIgd2lkdGg9IjEzIiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSIjQzlEM0UzIi8+CiAgPHJlY3QgeD0iMTEuNSIgeT0iMTguNiIgd2lkdGg9IjEzIiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSIjQzlEM0UzIi8+CiAgPHJlY3QgeD0iMTEuNSIgeT0iMjMuMiIgd2lkdGg9IjYuNSIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iI0M5RDNFMyIvPgogIDxwYXRoIGQ9Ik0xOS42IDI1LjIgTDIyIDI3LjYgTDI3LjIgMjEuNiIgc3Ryb2tlPSIjNEQ2QkZFIiBzdHJva2Utd2lkdGg9IjIuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
       "author": "weixiaodong86",
@@ -75,12 +75,12 @@
       },
       "versions": [
         {
-          "version": "1.0.0",
-          "publishTimestamp": 1795228162,
+          "version": "1.1.0",
+          "publishTimestamp": 1795228621,
           "source": {
             "type": "git",
             "url": "https://github.com/weixiaodong86/dsh-skill-project-docs.git",
-            "commit": "f5fb1bb66233d865afb20d52da63e12466edca6f"
+            "commit": "06ffdeb90d23210209ac5801545c60cb61afea17"
           },
           "engines": {
             "dsh": "^0.2.2-rc.5"
