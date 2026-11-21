@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Software project documents",
+    "description": "Generate and revise the 18 software R&D project-management documents (DOCX): confirm the document list first, then build on a single typography spec with cover, revision history, table of contents, numbered headings, tables and figures. Template mode adds italic fill-in guidance and examples; every revision produces a new versioned file with a formal revision record.",
+    "detail": "docs/DETAIL.md"
+  }
+}

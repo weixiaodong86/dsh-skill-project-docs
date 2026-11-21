@@ -1,0 +1,46 @@
+{
+  "name": "dsh-skill-project-docs",
+  "version": "1.0.0",
+  "description": "软件研发全流程项目管理过程文档生成技能：交互确认文档清单，按统一排版规范产出 DOCX，支持模板模式与版本化修订。",
+  "keywords": [
+    "dsh",
+    "dsh-skill",
+    "skill",
+    "project-management",
+    "documentation",
+    "docx",
+    "软件研发",
+    "项目管理"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "docs",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "engines": {
+    "dsh": "^0.2.2-rc.5"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
