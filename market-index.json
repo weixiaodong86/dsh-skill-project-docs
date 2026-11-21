@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH skill collection",
+    "zh": "DSH 技能合集"
+  },
+  "description": {
+    "en": "Skills packaged as installable DSH bundles.",
+    "zh": "以可安装 bundle 形式封装的 DSH 技能。"
+  },
+  "metadata": {
+    "categories": {
+      "project-docs": {
+        "title": {
+          "en": "Project documents",
+          "zh": "项目管理文档"
+        }
+      }
+    },
+    "labels": {
+      "skill": {
+        "title": {
+          "en": "Skill",
+          "zh": "技能"
+        }
+      },
+      "docx": {
+        "title": {
+          "en": "DOCX",
+          "zh": "Word 文档"
+        }
+      },
+      "chinese": {
+        "title": {
+          "en": "Chinese",
+          "zh": "中文"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-skill-project-docs",
+      "title": {
+        "en": "dsh-skill-project-docs",
+        "zh": "软件研发项目管理过程文档"
+      },
+      "description": {
+        "en": "软件研发全流程项目管理过程文档生成技能：交互确认文档清单，按统一排版规范产出 DOCX，支持模板模式与版本化修订。",
+        "zh": "生成与修订软件研发全流程 18 类项目管理过程文档（DOCX）：先交互确认文档清单，再按统一排版规范生成封面、修订记录、目录、自动编号标题与图表。模板模式附斜体填写说明与示例；每次修订产出新版本文件并维护正式修订记录。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8cmVjdCB4PSI3LjUiIHk9IjQuNSIgd2lkdGg9IjIxIiBoZWlnaHQ9IjI3IiByeD0iMyIgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMUYyNDMwIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8cmVjdCB4PSIxMS41IiB5PSI5IiB3aWR0aD0iOSIgaGVpZ2h0PSIyLjQiIHJ4PSIxLjIiIGZpbGw9IiM0RDZCRkUiLz4KICA8cmVjdCB4PSIxMS41IiB5PSIxNCIgd2lkdGg9IjEzIiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSIjQzlEM0UzIi8+CiAgPHJlY3QgeD0iMTEuNSIgeT0iMTguNiIgd2lkdGg9IjEzIiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSIjQzlEM0UzIi8+CiAgPHJlY3QgeD0iMTEuNSIgeT0iMjMuMiIgd2lkdGg9IjYuNSIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iI0M5RDNFMyIvPgogIDxwYXRoIGQ9Ik0xOS42IDI1LjIgTDIyIDI3LjYgTDI3LjIgMjEuNiIgc3Ryb2tlPSIjNEQ2QkZFIiBzdHJva2Utd2lkdGg9IjIuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+      "author": "weixiaodong86",
+      "homepage": "https://github.com/weixiaodong86/dsh-skill-project-docs",
+      "repository": {
+        "url": "https://github.com/weixiaodong86/dsh-skill-project-docs"
+      },
+      "metadata": {
+        "category": "project-docs",
+        "keywords": [
+          "dsh",
+          "skill",
+          "project-management",
+          "docx",
+          "软件研发",
+          "项目管理"
+        ],
+        "labels": [
+          "skill",
+          "docx",
+          "chinese"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795228075,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/weixiaodong86/dsh-skill-project-docs.git",
+            "commit": "f5fb1bb66233d865afb20d52da63e12466edca6f"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.5"
+          }
+        }
+      ]
+    }
+  ]
+}
