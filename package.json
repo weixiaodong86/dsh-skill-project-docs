@@ -1,7 +1,7 @@
 {
   "name": "dsh-skill-project-docs",
-  "version": "1.0.0",
-  "description": "软件研发全流程项目管理过程文档生成技能：交互确认文档清单，按统一排版规范产出 DOCX，支持模板模式与版本化修订。",
+  "version": "1.1.0",
+  "description": "生成、重构与补齐软件研发全流程项目管理过程文档（DOCX）：从旧文档抽取事实重建规范文档，识别并补齐缺失的过程文档，支持模板模式与版本化修订。",
   "keywords": [
     "dsh",
     "dsh-skill",
@@ -29,6 +29,7 @@
     "docs",
     "skills",
     "README.md",
+    "CHANGELOG.md",
     "LICENSE"
   ],
   "license": "MIT",

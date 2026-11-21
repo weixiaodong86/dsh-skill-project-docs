@@ -4,7 +4,8 @@
 
 ## 它做什么
 
-- **先确认再生成**：每次任务前确认要生成哪些文档、正式版还是模板、新建还是修订。
+- **先确认再生成**：每次任务前确认要生成哪些文档、正式版还是模板、新建还是修订，以及是新建、重构、拆分、合并还是补齐。
+- **重构与补齐**：把旧文档拆成带来源的事实单元，按规范重建为新文档；按项目阶段识别缺失的过程文档并补齐。旧文件只读，未采用的内容列清单，冲突交用户裁决。
 - **统一排版**：A4、宋体小四正文、黑体分级标题、1.5 倍行距、首行缩进 2 字符、三线/全框表格、表上图下、分节页码、自动目录、正式修订记录表。
 - **可复现构建**：内容写在受控 Markdown 里，由包内 `docx_kit.py` 渲染为 DOCX；同一内容源重复构建得到同一排版。
 - **模板模式**：每章配楷体斜体的【填写说明】与示例，便于他人填写。
@@ -29,11 +30,12 @@
 | 路径 | 用途 |
 |---|---|
 | `skills/software-project-docs/SKILL.md` | 技能主流程与硬性规则 |
-| `skills/software-project-docs/references/` | 排版规范、内容边界、版本规则、18 类文档章节骨架 |
+| `skills/software-project-docs/references/` | 排版规范、内容边界、版本规则、重构与补齐流程、18 类文档章节骨架 |
 | `skills/software-project-docs/assets/` | DOCX 构建库 `docx_kit.py`、内容源语法说明与样例 |
-| `skills/software-project-docs/scripts/` | `build.py` 构建命令、`check_docx.py` 规范自检 |
+| `skills/software-project-docs/scripts/` | `build.py` 构建、`check_docx.py` 规范自检、`inventory_docs.py` 旧文档盘点 |
 | `index.js` | 把技能注册到 `ctx.skills` 的 Host 插件 |
 | `cordis.patch.yml` | bundle 的 Loader 补丁 |
+| `CHANGELOG.md` | 版本变更记录 |
 
 ## 运行要求
 
